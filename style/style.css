@@ -70,12 +70,15 @@ nav .nav-middle a > i{
 }
 
 nav .nav-right .profile, .container .left-panel .profile{
-    background: url('./images/dp.jpg');
     height:30px;
     width:30px;
     background-size: cover;
     border-radius: 50%;
     cursor: pointer;
+}
+.profile{
+    width: 100%;
+    object-fit: cover;
 }
 
 nav .nav-right a{
@@ -381,8 +384,22 @@ nav .nav-right a > i{
     width:100%;
 }
 
-.right-panel .pages-section .name, .right-panel .friends-section .name{
-    font-size:18px;
-    cursor:pointer;
-    margin-left:8px;
+.right-panel .pages-section .name, .right-panel .friends-section .name {
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+#header_logo{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0.075em;
+
+    background: linear-gradient(270deg, #0085FF 30%, #CA0B7D 20%, #EF6262 50%, rgba(230, 11, 11, 0.88) 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
